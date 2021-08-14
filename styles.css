@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.container {
+  margin: 30px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 10px 10px 20px hsl(218, 22%, 67%);
+}
+
+.top {
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px 5px 0 0;
+}
+
+.title-top {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.subtitle-top {
+  color: hsl(71, 73%, 54%);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.description-top {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.price {
+  background-color: hsl(179, 62%, 43%);
+  padding: 30px;
+}
+
+.title-price {
+  color: hsl(204, 43%, 93%);
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.price-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.price-dollar {
+  font-size: 35px;
+  color: hsl(204, 43%, 93%);
+  margin-right: 10px;
+}
+
+.price-month {
+  color: hsl(204, 43%, 93%);
+  opacity: 60%;
+  font-size: 18px;
+}
+
+.description-price {
+  color: hsl(204, 43%, 93%);
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: hsl(71, 73%, 54%);
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.why-us {
+  background-color: hsl(179, 62%, 47%);
+  padding: 30px;
+  border-radius: 0 0 5px 5px;
+}
+
+.title--why-us {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.description--why-us {
+  color: hsl(204, 43%, 93%);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+@media screen and (min-device-width: 1200px) {
+  .container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 5px 5px 5px 5px;
+  }
+
+  .top {
+    width: 700px;
+  }
+
+  .title-top {
+    font-size: 25px;
+  }
+
+  .subtitle-top {
+    font-size: 20px;
+  }
+
+  .description-top {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .bottom {
+    display: flex;
+  }
+
+  .price {
+    flex: 1;
+    border-radius: 0 0 0 5px;
+  }
+
+  .title-price {
+    font-size: 25px;
+  }
+
+  .price-dollar {
+    font-size: 40px;
+  }
+
+  .description-price {
+    font-size: 19px;
+    margin-bottom: 40px;
+  }
+
+  .btn {
+    font-size: 20px;
+    padding: 15px 20px;
+  }
+
+  .btn:hover {
+    background-color: hsl(71, 73%, 45%);
+  }
+
+  .why-us {
+    flex: 1;
+    border-radius: 0 0 5px 0;
+  }
+
+  .title--why-us {
+    font-size: 25px;
+  }
+}
